@@ -10,8 +10,8 @@
 #define OLED_HEIGHT 32
 
 //constants
-const char* ssid = "BT-RZCP9M";
-const char* password = "QM3UvPtE7hKg3G";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 //declare oled object
 Adafruit_SSD1306 oled(OLED_WIDTH, OLED_HEIGHT, &Wire, -1);
